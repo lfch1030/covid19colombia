@@ -1,0 +1,9 @@
+%analyse data
+close all
+addpath('CV19')
+addpath('data')
+n = 30; % from day onward
+out = analyseCV19(@getDataBogota); %,n);
+%out = analyseCV19(@getDataColombia); %,n);
+
+
