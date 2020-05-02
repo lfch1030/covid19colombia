@@ -57,7 +57,9 @@ NaN % 11-03
 2241	%	25-abr
 2346	%	26-abr
 2407	%	27-abr
-NaN	%	27-abr
+2768	%	28-abr
+2772	%	29-abr
+
 %<-------------- add new data here
 ]';
 date0=datenum('06-Mar-2020');
