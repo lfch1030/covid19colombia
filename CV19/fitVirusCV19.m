@@ -206,7 +206,7 @@ function res = fitVirusCV19(getData,varargin)
             % just plot data
             plotData(C,date0,country,plt)
             if jpg
-                fname = sprintf('%s%s.jpg',country,datestr(date0 + length(tt) - 1));
+                fname = sprintf('%s%s.jpg',country);
                 print(gcf,fname,'-djpeg',jpres);
             end
             return
@@ -333,7 +333,7 @@ function res = fitVirusCV19(getData,varargin)
         end
         plotData(C,date0,country,plt)
         if jpg
-            fname = sprintf('%s%s.jpg',country,datestr(date0 + length(tt) - 1));
+            fname = sprintf('%s%s.jpg',country );
             print(gcf,fname,'-djpeg',jpres);
         end
         return
@@ -698,7 +698,7 @@ function res = fitVirusCV19(getData,varargin)
         hold off
         
         if jpg
-            fname = sprintf('%s%s.jpg',country,datestr(date0 + length(tt) - 1));
+            fname = sprintf('%s%s.jpg',country);
             print(gcf,fname,'-djpeg',jpres);
         end
         

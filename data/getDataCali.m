@@ -53,8 +53,12 @@ NaN	%	2020-03-15
 697	% 	28 Abr
 713	% 	29 Abr
 750	%	30 Abr
-798	%	1 Abr
-838	%	2 Abr
+798	%	1 May
+838	%	2 May
+840	% 	3
+866	%	4
+894	%	5	
+934	%	6 May
 %<-------------- add new data here
 ]';
 date0=datenum('13-Mar-2020');

@@ -59,7 +59,11 @@ NaN	%	2020-03-22
 305	%	29 abr
 309	%	30 abr	
 310	%	1 May
-
+NaN	%	2
+285	%	3
+288	%	4
+291	%	5
+294	%	6 May
 %<-------------- add new data here
 ]';
 date0=datenum('07-Mar-2020');
