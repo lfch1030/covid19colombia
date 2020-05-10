@@ -1,626 +1,749 @@
 prn = 'off';
 plt = 'on';
 try
-  fitVirusCV19(@getDataWorld,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataAcacias,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataAfghanistan,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataAcevedo,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataAgrado,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataAguachica,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataAgustin_Codazzi,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataAipe,'prn',prn,'jpg',plt)
 end
 try
   fitVirusCV19(@getDataAlbania,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataAlgeria,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataAlcala,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataAndorra,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataAlgeciras,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataAngola,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataAmaga,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataAnguilla,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataAnapoima,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataAntiguaAndBarbuda,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataAncuya,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataArgentina,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataAndalucia,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataAndes,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataAngostura,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataAnserma,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataApartado,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataAquitania,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataArjona,'prn',prn,'jpg',plt)
 end
 try
   fitVirusCV19(@getDataArmenia,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataAruba,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataBaranoa,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataAustralia,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataBarbosa,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataAustria,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataBarrancabermeja,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataAzerbaijan,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataBarranco_de_Loba,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataBahamas,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataBarranquilla,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataBahrain,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataBello,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataBangladesh,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataBelen,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataBarbados,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataBogota_DC,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataBelarus,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataBosconia,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataBelgium,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataBucaramanga,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataBelize,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataBuenaventura,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataBenin,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataBugalagrande,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataBermuda,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataCajica,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataBhutan,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataCalamar,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataBolivia,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataCalarca,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataBonaireSintEustatiusAndSaba,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataCaldas,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataBosniaAndHerzegovina,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataCali,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataBotswana,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataCalima,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataBrazil,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataCaloto,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataBritishVirginIslands,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataCanalete,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataBrunei,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataCandelaria,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataBulgaria,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataCartagena_de_Indias,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataBurkinaFaso,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataCartago,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataBurundi,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataCerete,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataCambodia,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataChinchina,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataCameroon,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataChipaque,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataCanada,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataChiquinquira,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataCapeVerde,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataChiriguana,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataCaymanIslands,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataChoachi,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataCentralAfricanRepublic,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataChoco,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataChad,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataChia,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataChile,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataCimitarra,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataChina,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataCircasia,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataColombia,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataCienaga,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataCongo,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataCienaga_de_Oro,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataCostaRica,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataCocorna,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataCoteD_Ivoire,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataCogua,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataCroatia,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataConcepcion,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataCuba,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataContadero,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataCuracao,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataCopacabana,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataCyprus,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataCota,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataCzechRepublic,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataCuaspud,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataDemocraticRepublicOfCongo,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataCubara,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataDenmark,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataCumbal,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataDjibouti,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataCumbitara,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataDominica,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataCundinamarca,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataDominicanRepublic,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataCuriti,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataEcuador,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataCucuta,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataEgypt,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataDagua,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataElSalvador,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataDistraccion,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataEquatorialGuinea,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataDonmatias,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataEritrea,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataDosquebradas,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataEstonia,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataDuitama,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataEthiopia,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataEl_Banco,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataFaeroeIslands,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataEl_Carmen_de_Viboral,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataFalklandIslands,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataEl_Cerrito,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataFiji,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataEl_Dovio,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataFinland,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataEl_Santuario,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataFrance,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataEl_Tambo,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataFrenchPolynesia,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataEnvigado,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataGabon,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataEspinal,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataGambia,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataFacatativa,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataGeorgia,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataFilandia,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataGermany,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataFlorencia,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataGhana,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataFlorida,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataGibraltar,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataFloridablanca,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataGreece,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataFrontino,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataGreenland,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataFunza,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataGrenada,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataFusagasuga,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataGuam,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataFomeque,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataGuatemala,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataGachancipa,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataGuernsey,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataGalapa,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataGuinea,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataGaragoa,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataGuinea_Bissau,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataGarzon,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataGuyana,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataGigante,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataHaiti,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataGinebra,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataHonduras,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataGranada,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataHungary,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataGuacari,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataIceland,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataGuachene,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataIndia,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataGuachucal,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataIndonesia,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataGuadalajara_de_Buga,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataInternational,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataGuaduas,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataIran,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataGuamo,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataIraq,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataGuarne,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataIreland,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataGuatape,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataIsleOfMan,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataIbague,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataIsrael,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataIpiales,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataItaly,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataIsnos,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataJamaica,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataItagüi,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataJapan,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataJamundi,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataJersey,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataLa_Calera,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataJordan,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataLa_Ceja,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataKazakhstan,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataLa_Dorada,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataKenya,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataLa_Estrella,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataKosovo,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataLa_Florida,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataKuwait,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataLa_Jagua_de_Ibirico,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataKyrgyzstan,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataLa_Paz,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataLaos,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataLa_Plata,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataLatvia,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataLa_Tebaida,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataLebanon,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataLa_Union,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataLiberia,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataLa_Virginia,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataLibya,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataLeticia,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataLiechtenstein,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataLinares,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataLithuania,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataLorica,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataLuxembourg,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataLos_Palmitos,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataMacedonia,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataLos_Patios,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataMadagascar,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataMadrid,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataMalawi,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataMagangue,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataMalaysia,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataMaicao,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataMaldives,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataMalambo,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataMali,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataManati,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataMalta,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataManizales,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataMauritania,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataMarmato,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataMauritius,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataMarquetalia,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataMexico,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataMaria_la_Baja,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataMoldova,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataMedellin,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataMonaco,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataMelgar,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataMongolia,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataMiranda,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataMontebello,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataMontelibano,'prn',prn,'jpg',plt)
 end
 try
   fitVirusCV19(@getDataMontenegro,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataMontserrat,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataMonteria,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataMorocco,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataMosquera,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataMozambique,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataNeiva,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataMyanmar,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataNorcasia,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataNamibia,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataOcaña,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataNepal,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataOicata,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataNetherlands,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataPacho,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataNewCaledonia,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataPaicol,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataNewZealand,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataPaipa,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataNicaragua,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataPalermo,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataNiger,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataPalmar_de_Varela,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataNigeria,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataPalmira,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataNorthernMarianaIslands,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataPasto,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataNorway,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataPaz_de_Ariporo,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataOman,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataPereira,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataPakistan,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataPiedecuesta,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataPalestine,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataPiendamo,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataPanama,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataPitalito,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataPapuaNewGuinea,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataPolonuevo,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataParaguay,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataPonedera,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataPeru,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataPopayan,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataPhilippines,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataPotosi,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataPoland,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataPuebloviejo,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataPortugal,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataPuerto_Colombia,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataPuertoRico,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataPuerto_Santander,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataQatar,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataPuerto_Tejada,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataRomania,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataRestrepo,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataRussia,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataRetiro,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataRwanda,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataRiohacha,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataSaintKittsAndNevis,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataRionegro,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataSaintLucia,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataRiosucio,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataSaintVincentAndTheGrenadines,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataRisaralda,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataSanMarino,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataRoldanillo,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataSaoTomeAndPrincipe,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataRio_de_Oro,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataSaudiArabia,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSabanagrande,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataSenegal,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSabanalarga,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataSerbia,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSabaneta,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataSeychelles,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSahagun,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataSierraLeone,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSamaca,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataSingapore,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSamana,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataSintMaarten_DutchPart_,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSan_Agustin,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataSlovakia,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSan_Andres,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataSlovenia,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSan_Andres_de_Tumaco,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataSomalia,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSan_Cristobal,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataSouthAfrica,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSan_Diego,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataSouthKorea,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSan_Francisco,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataSouthSudan,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSan_Juan_de_Arama,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataSpain,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSan_Juan_de_Rioseco,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataSriLanka,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSan_Juan_del_Cesar,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataSudan,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSan_Martin,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataSuriname,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSan_Pedro,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataSwaziland,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSan_Pedro_de_Uraba,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataSweden,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSanta_Lucia,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataSwitzerland,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSanta_Marta,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataSyria,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSanta_Rosa,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataTaiwan,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSanta_Rosa_de_Cabal,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataTanzania,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSanta_Rosa_de_Osos,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataThailand,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSanta_Sofia,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataTimor,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSantana,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataTogo,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSantander_de_Quilichao,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataTrinidadAndTobago,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSanto_Tomas,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataTunisia,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSibate,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataTurkey,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSilvania,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataTurksAndCaicosIslands,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSincelejo,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataUganda,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSoacha,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataUkraine,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSocha,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataUnitedArabEmirates,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSogamoso,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataUnitedKingdom,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSoledad,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataUnitedStates,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSonson,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataUnitedStatesVirginIslands,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSopo,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataUruguay,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSubachoque,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataUzbekistan,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataSuesca,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataVatican,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataTenjo,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataVenezuela,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataTenza,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataVietnam,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataTibu,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataWesternSahara,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataTierralta,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataYemen,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataTimana,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataZambia,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataTimbio,'prn',prn,'jpg',plt)
 end
 try
-  fitVirusCV19(@getDataZimbabwe,'prn',prn,'jpg',plt)
+  fitVirusCV19(@getDataTocancipa,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataTogüi,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataToledo,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataTrujillo,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataTulua,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataTunja,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataTurbaco,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataTurbana,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataTurmeque,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataTuquerres,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataUlloa,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataUne,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataValledupar,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataVijes,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataVilla_de_Leyva,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataVilla_de_San_Diego_de_Ubate,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataVilla_del_Rosario,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataVilla_rica,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataVillamaria,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataVillanueva,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataVillapinzon,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataVillavicencio,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataVilleta,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataViterbo,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataYopal,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataYotoco,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataYumbo,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataZipaquira,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataZona_Bananera,'prn',prn,'jpg',plt)
+end
+try
+  fitVirusCV19(@getDataÁbrego,'prn',prn,'jpg',plt)
 end

@@ -248,7 +248,7 @@ function res = fitVirusCV19(getData,varargin)
     % initial guess  
     while true
         b0 = iniGuess(C);
-       b0
+      
         if isempty(b0)
             if length(C) > nmin
                 date0 = date0 + 1;
@@ -352,7 +352,7 @@ function res = fitVirusCV19(getData,varargin)
 
     %... value at inflection point
     Cm   = calcCm(b);
-    Cm
+   
     % contact numer
     R0 = beta/gamma; %*(1 - I0/N);
     
@@ -388,7 +388,7 @@ function res = fitVirusCV19(getData,varargin)
     %... datums
     tp0 = max(tm - 1.5*tau + date0,date0);
     tp1 = (tm - tau1) + date0;  % begin acceleration
-    tp1
+    
     tp2 = (tm) + date0;         % turning point
     tp3 = (tm + tau2) + date0;  % end deceleration
     tp4 = (tm + tau2) + tau/2 + date0; % enter final phase

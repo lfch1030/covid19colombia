@@ -48,96 +48,160 @@ path = pwd;
 Amin = 5;  % data les than Amin will be deleted from file begining
 
 % get table 
-T = readtable(fileXLSX);
+T1 = readtable(fileXLSX);
 
+formatOut = 'dd-mm-yyyy';
+ciudad1=string(T1.CiudadDeUbicaci_n );  
+date1=datetime(extractBefore(string(T1.FechaDeNotificaci_n),'T'),'InputFormat','yyyy-MM-dd');
+  
+%   for i=1:length(date1)
+%         fdate1(i)=date1(i);
+%   end
 
+%_____________________________Date count_____________________
+   [Dat,iT1,iDat]=unique(date1);
+   
+   Dat_cont=accumarray(iDat,1);
+  %[Dat, Dat_cont];
+  
+ 
+  numDays=-datenum('02-03-2020','dd-mm-yyyy')+datenum( datestr(now,formatOut),'dd-mmm-yyyy');
+  fdate = transpose(datetime('2020-03-06') + caldays(0:numDays-5));
+ 
+ 
+  [Ciu, ia, ic] = unique(ciudad1);
+ a_Conteo = accumarray(ic,1);
+%a_Conteo(29)
+value_nCiu = [Ciu, a_Conteo];
+  length(fdate);
+    Ts=strings(length(fdate)+1,length(Ciu)+1);
+    Ts(2:end,1)=fdate;
+    Ts(1,2:end)=Ciu;
+    
+%________Table_cityVSdates____
+TCvD=[string(date1),ciudad1];
 
-%clearget data
-Ciudad =  T{:,4};
+[rCvsD,iTCD,irCD]=unique(TCvD,'rows');
+rCvsD_Conteo = accumarray(irCD,1);
+[rCvsD,rCvsD_Conteo];
+size(Ts);
 
+%%_____Table of case for day in each city__________
 
-    for i=1:length(Ciudad)
-        
-        
+for i=1:size(rCvsD,1)
+    for j=2:size(Ts,1)
+       if (Ts(j,1)==rCvsD(i,1))
+            for h=2:size(Ts,2)
+                if (Ts(1,h)==rCvsD(i,2))
+                   Ts(j,h)= rCvsD_Conteo(i);
+                   
+                end
+            end
+        end 
     end
-
 end
-% 
-% % table column names
-% name = string(T.Properties.VariableNames);
-% name = name(2:end)';
+
+
+
+    A1 =  Ts(2:end,2:end);
+    [Anrow,Ancol]=find(A1=='');
+    A2(Anrow,Ancol)=0;
+    [A1nrow,A1ncol]=find(A1~='');
+    A2(A1nrow(1),A1ncol(1))=str2num(A1(A1nrow(1),A1ncol(1)));
+    for i=2:length(A1nrow)
+        A2(A1nrow(i),A1ncol(i))=str2num(A1(A1nrow(i),A1ncol(i)))+A2(A1nrow(i-1),A1ncol(i));
+    end
+    
+     for i=1:size(A2,1)
+        for j=1:size(A2,2)
+            if A2(i,j)==0
+                A(i,j)=NaN;
+            else
+                A(i,j)=A2(i,j);
+            end
+        end
+    end
+    
+    [nrow,ncol] = size(A);
+
+ % table column names
+ oldText = ["á","é","í","ó","ú","."," "];
+newText = ["a","e","i","o","u","","_"];
+ name = replace(Ts(1,2:end),oldText,newText);
+ 
 % 
 % % start date
-% date0 = datenum(T{1,1}); %datenum(txt{2,1},'dd.mm.yyyy'); %datenum('2019/12/31');
+ date0 = datenum(Ts(2,1)); %datenum(txt{2,1},'dd.mm.yyyy'); %datenum('2019/12/31');
 % 
 % % end date
 % %date1 = date0 + nrow - 1;
 % 
 % %functions names
-% ffname = strings(ncol,1);
-% nn = 0;
-% for n = 1:ncol
-%     nname = name{n};
-%     if strcmp("",nname) 
-%         continue
-%     end
-%     nn = nn + 1;
-%     nname = strrep(nname,' ','_');
-%     nname = strrep(nname,'-','_');  
-%     nname = strrep(nname,'''','_');      
-%     nname = strrep(nname,'(','_');       
-%     nname = strrep(nname,')','_');      
-%     fname = sprintf('getData%s.m',nname);
-%     fid = fopen(fullfile(path,fname),'w');
-%     if fid < 0
-%         fprintf('***Fail to open %s\n',fname);
-%         continue
-%     end
-%     fprintf('%d/%d country %s ...\n',ncol,n,nname);
-%     ffname(nn) = nname;
-%     fprintf(fid,'function [country,C,date0] = getData%s()\n',nname);
-%     fprintf(fid,'%%GETDATA%s Coronavirus data for %s\n',upper(nname),nname);
-%     fprintf(fid,'%%  as reported by One World in Data\n');
-%     fprintf(fid,'%%     https://ourworldindata.org/coronavirus-source-data\n');
-%     fprintf(fid,'country = ''%s'';\n',strrep(name(n),' ','_'));
-%     fprintf(fid,'C = [\n');
-%     found = false;
-%     nday = 0;
-%     for m = 1:nrow
-%         if ~found && (isnan(A(m,n)) || A(m,n) == 0 || A(m,n) < Amin)
-%             nday = nday + 1;
-%             continue
-%         else
-%             found = true;
-%         end
-%         fprintf(fid,'  %9d %% %s\n',A(m,n),datestr(date0 + m - 1));
-%     end
-%     fprintf(fid,'%%<-------------- add new data here\n');    
-%     fprintf(fid,']'';\n');
-%     % start date
-%     fprintf(fid,'date0=datenum(''%s'');\n',datestr(date0 + nday)); 
-%     fprintf(fid,'end\n');
-%     fclose(fid);
-%     
-%     %generete driver rutine
-%     fname = 'runAll.m';
-%     fid = fopen(fullfile(path,fname),'w'); 
-%     if fid < 0
-%         fprintf('***Fail to open %s\n',fname);
-%         continue
-%     end
-%     fprintf(fid,'prn = ''off'';\n');
-%     fprintf(fid,'plt = ''on'';\n');
-%     for n = 1:nn
-%         fprintf(fid,'try\n');
-%         fprintf(fid,'  fitVirusCV19(@getData%s,''prn'',prn,''jpg'',plt)\n',...
-%             ffname(n));
-%         fprintf(fid,'end\n');
-%     end
-%     fclose(fid);
-%     
-%     cd(oldFolder)
-% end
+ ffname = Ciu;
+ nn = 0;
+ for n = 1:ncol
+    nname = name(n);
+     if strcmp("",nname) 
+         continue
+     end
+    nn = nn + 1;
+     nname = strrep(nname,' ','_');
+     nname = strrep(nname,'-','_');  
+     nname = strrep(nname,'''','_');      
+     nname = strrep(nname,'(','_');       
+     nname = strrep(nname,')','_');      
+     fname = sprintf('getData%s.m',nname);
+     fid = fopen(fullfile(path,fname),'w');
+     if fid < 0
+         fprintf('***Fail to open %s\n',fname);
+         continue
+    end
+     fprintf('%d/%d country %s ...\n',ncol,n,nname);
+     ffname(nn) = nname;
+    fprintf(fid,'function [country,C,date0] = getData%s()\n',nname);
+    fprintf(fid,'%%GETDATA%s Coronavirus data for %s\n',upper(nname),nname);
+    fprintf(fid,'%%  as reported by One World in Data\n');
+    fprintf(fid,'%%     https://www.datos.gov.co/api/views/gt2j-8ykr/rows.csv?accessType=DOWNLOAD\n');
+    
+    fprintf(fid,'country = ''%s'';\n',strrep(name(n),' ','_'));
+    fprintf(fid,'C = [\n');
+    found = false;
+    nday = 0;
+    for m = 1:nrow
+        if ~found && (isnan(A(m,n)) || A(m,n) == 0 || A(m,n) < Amin)
+            nday = nday + 1;
+            continue
+        else
+            found = true;
+        end
+        fprintf(fid,'  %9d %% %s\n',A(m,n),datestr(date0 + m - 1));
+    end
+    fprintf(fid,'%%<-------------- add new data here\n');    
+    fprintf(fid,']'';\n');
+%    start date
+    fprintf(fid,'date0=datenum(''%s'');\n',datestr(date0 + nday)); 
+    fprintf(fid,'end\n');
+    fclose(fid);
+    
+%    generete driver rutine
+    fname = 'runAll.m';
+    fid = fopen(fullfile(path,fname),'w'); 
+    if fid < 0
+        fprintf('***Fail to open %s\n',fname);
+        continue
+    end
+    fprintf(fid,'prn = ''off'';\n');
+    fprintf(fid,'plt = ''on'';\n');
+    for n = 1:nn
+        fprintf(fid,'try\n');
+        fprintf(fid,'  fitVirusCV19(@getData%s,''prn'',prn,''jpg'',plt)\n',...
+            ffname(n));
+        fprintf(fid,'end\n');
+    end
+    fclose(fid);
+    
+    cd(oldFolder)
+end
 
 
 
