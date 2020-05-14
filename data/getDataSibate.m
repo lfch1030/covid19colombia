@@ -4,12 +4,7 @@ function [country,C,date0] = getDataSibate()
 %     https://www.datos.gov.co/api/views/gt2j-8ykr/rows.csv?accessType=DOWNLOAD
 country = 'Sibate';
 C = [
-          5 % 25-Apr-2020
-        NaN % 26-Apr-2020
-        NaN % 27-Apr-2020
-        NaN % 28-Apr-2020
-        NaN % 29-Apr-2020
-          8 % 30-Apr-2020
+          7 % 30-Apr-2020
         NaN % 01-May-2020
         NaN % 02-May-2020
         NaN % 03-May-2020
@@ -22,7 +17,8 @@ C = [
         NaN % 10-May-2020
         NaN % 11-May-2020
         NaN % 12-May-2020
+        NaN % 13-May-2020
 %<-------------- add new data here
 ]';
-date0=datenum('25-Apr-2020');
+date0=datenum('30-Apr-2020');
 end
