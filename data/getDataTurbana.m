@@ -4,7 +4,10 @@ function [country,C,date0] = getDataTurbana()
 %     https://www.datos.gov.co/api/views/gt2j-8ykr/rows.csv?accessType=DOWNLOAD
 country = 'Turbana';
 C = [
+          6 % 15-May-2020
+        NaN % 16-May-2020
+        NaN % 17-May-2020
 %<-------------- add new data here
 ]';
-date0=datenum('14-May-2020');
+date0=datenum('15-May-2020');
 end

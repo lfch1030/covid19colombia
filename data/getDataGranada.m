@@ -4,7 +4,9 @@ function [country,C,date0] = getDataGranada()
 %     https://www.datos.gov.co/api/views/gt2j-8ykr/rows.csv?accessType=DOWNLOAD
 country = 'Granada';
 C = [
-          5 % 29-Apr-2020
+          5 % 27-Apr-2020
+        NaN % 28-Apr-2020
+        NaN % 29-Apr-2020
         NaN % 30-Apr-2020
         NaN % 01-May-2020
         NaN % 02-May-2020
@@ -19,7 +21,11 @@ C = [
         NaN % 11-May-2020
         NaN % 12-May-2020
         NaN % 13-May-2020
+        NaN % 14-May-2020
+        NaN % 15-May-2020
+        NaN % 16-May-2020
+        NaN % 17-May-2020
 %<-------------- add new data here
 ]';
-date0=datenum('29-Apr-2020');
+date0=datenum('27-Apr-2020');
 end
