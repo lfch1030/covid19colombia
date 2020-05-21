@@ -16,17 +16,20 @@ C = [
         NaN % 04-May-2020
           9 % 05-May-2020
          10 % 06-May-2020
-         13 % 07-May-2020
-         14 % 08-May-2020
+         14 % 07-May-2020
+         15 % 08-May-2020
         NaN % 09-May-2020
         NaN % 10-May-2020
-         15 % 11-May-2020
+         18 % 11-May-2020
         NaN % 12-May-2020
         NaN % 13-May-2020
         NaN % 14-May-2020
         NaN % 15-May-2020
-        NaN % 16-May-2020
+         20 % 16-May-2020
         NaN % 17-May-2020
+         22 % 18-May-2020
+        NaN % 19-May-2020
+        NaN % 20-May-2020
 %<-------------- add new data here
 ]';
 date0=datenum('25-Apr-2020');
