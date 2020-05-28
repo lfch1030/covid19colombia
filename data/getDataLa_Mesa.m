@@ -1,0 +1,10 @@
+function [country,C,date0] = getDataLa_Mesa()
+%GETDATALA_MESA Coronavirus data for La_Mesa
+%  as reported by One World in Data
+%     https://www.datos.gov.co/api/views/gt2j-8ykr/rows.csv?accessType=DOWNLOAD
+country = 'La_Mesa';
+C = [
+%<-------------- add new data here
+]';
+date0=datenum('28-May-2020');
+end

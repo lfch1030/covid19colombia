@@ -52,9 +52,16 @@ C = [
          85 % 15-May-2020
         NaN % 16-May-2020
         NaN % 17-May-2020
-        NaN % 18-May-2020
-         86 % 19-May-2020
-        NaN % 20-May-2020
+         87 % 18-May-2020
+         89 % 19-May-2020
+         92 % 20-May-2020
+         94 % 21-May-2020
+         95 % 22-May-2020
+         96 % 23-May-2020
+        NaN % 24-May-2020
+        NaN % 25-May-2020
+        NaN % 26-May-2020
+        NaN % 27-May-2020
 %<-------------- add new data here
 ]';
 date0=datenum('31-Mar-2020');

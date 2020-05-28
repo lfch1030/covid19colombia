@@ -4,7 +4,14 @@ function [country,C,date0] = getDataPalermo()
 %     https://www.datos.gov.co/api/views/gt2j-8ykr/rows.csv?accessType=DOWNLOAD
 country = 'Palermo';
 C = [
-          5 % 25-Apr-2020
+          5 % 18-Apr-2020
+        NaN % 19-Apr-2020
+        NaN % 20-Apr-2020
+        NaN % 21-Apr-2020
+        NaN % 22-Apr-2020
+        NaN % 23-Apr-2020
+        NaN % 24-Apr-2020
+          6 % 25-Apr-2020
         NaN % 26-Apr-2020
         NaN % 27-Apr-2020
         NaN % 28-Apr-2020
@@ -30,7 +37,14 @@ C = [
         NaN % 18-May-2020
         NaN % 19-May-2020
         NaN % 20-May-2020
+        NaN % 21-May-2020
+        NaN % 22-May-2020
+        NaN % 23-May-2020
+        NaN % 24-May-2020
+        NaN % 25-May-2020
+        NaN % 26-May-2020
+        NaN % 27-May-2020
 %<-------------- add new data here
 ]';
-date0=datenum('25-Apr-2020');
+date0=datenum('18-Apr-2020');
 end

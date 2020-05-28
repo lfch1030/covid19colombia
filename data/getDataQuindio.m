@@ -4,8 +4,8 @@ function [country,C,date0] = getDataQuindio()
 %     https://www.datos.gov.co/api/views/gt2j-8ykr/rows.csv?accessType=DOWNLOAD
 country = 'Quindio';
 C = [
-          5 % 20-Mar-2020
-          7 % 21-Mar-2020
+          6 % 20-Mar-2020
+          8 % 21-Mar-2020
          13 % 22-Mar-2020
          14 % 23-Mar-2020
          17 % 24-Mar-2020
@@ -60,12 +60,19 @@ C = [
          79 % 12-May-2020
          80 % 13-May-2020
          83 % 14-May-2020
-         84 % 15-May-2020
+         85 % 15-May-2020
         NaN % 16-May-2020
         NaN % 17-May-2020
-        NaN % 18-May-2020
-        NaN % 19-May-2020
-        NaN % 20-May-2020
+         88 % 18-May-2020
+         91 % 19-May-2020
+         96 % 20-May-2020
+         99 % 21-May-2020
+        NaN % 22-May-2020
+        NaN % 23-May-2020
+        NaN % 24-May-2020
+        NaN % 25-May-2020
+        NaN % 26-May-2020
+        107 % 27-May-2020
 %<-------------- add new data here
 ]';
 date0=datenum('20-Mar-2020');

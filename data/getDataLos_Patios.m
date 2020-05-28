@@ -4,7 +4,8 @@ function [country,C,date0] = getDataLos_Patios()
 %     https://www.datos.gov.co/api/views/gt2j-8ykr/rows.csv?accessType=DOWNLOAD
 country = 'Los_Patios';
 C = [
+          5 % 27-May-2020
 %<-------------- add new data here
 ]';
-date0=datenum('21-May-2020');
+date0=datenum('27-May-2020');
 end
