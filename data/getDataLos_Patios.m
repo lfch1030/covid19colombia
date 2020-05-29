@@ -5,6 +5,7 @@ function [country,C,date0] = getDataLos_Patios()
 country = 'Los_Patios';
 C = [
           5 % 27-May-2020
+        NaN % 28-May-2020
 %<-------------- add new data here
 ]';
 date0=datenum('27-May-2020');

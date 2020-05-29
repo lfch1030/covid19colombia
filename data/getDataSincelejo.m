@@ -4,11 +4,16 @@ function [country,C,date0] = getDataSincelejo()
 %     https://www.datos.gov.co/api/views/gt2j-8ykr/rows.csv?accessType=DOWNLOAD
 country = 'Sincelejo';
 C = [
-          5 % 24-May-2020
-          6 % 25-May-2020
+          5 % 20-May-2020
+        NaN % 21-May-2020
+        NaN % 22-May-2020
+        NaN % 23-May-2020
+          7 % 24-May-2020
+          8 % 25-May-2020
         NaN % 26-May-2020
         NaN % 27-May-2020
+          9 % 28-May-2020
 %<-------------- add new data here
 ]';
-date0=datenum('24-May-2020');
+date0=datenum('20-May-2020');
 end

@@ -58,6 +58,9 @@ try
   fitVirusCV19(@getDataCordoba,'prn',prn,'jpg',plt)
 end
 try
+  fitVirusCV19(@getDataGuainia,'prn',prn,'jpg',plt)
+end
+try
   fitVirusCV19(@getDataHuila,'prn',prn,'jpg',plt)
 end
 try
