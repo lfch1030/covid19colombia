@@ -105,3 +105,6 @@ end
 try
   fitVirusCV19(@getDataVaupes,'prn',prn,'jpg',plt)
 end
+try
+  fitVirusCV19(@getDataVichada,'prn',prn,'jpg',plt)
+end

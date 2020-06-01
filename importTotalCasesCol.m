@@ -66,7 +66,7 @@ date1=datetime(extractBefore(string(T1.FechaDeNotificaci_n),'T'),'InputFormat','
   
  
   numDays=-datenum('02-03-2020','dd-mm-yyyy')+datenum( datestr(now,formatOut),'dd-mmm-yyyy');
-  fdate = transpose(datetime('2020-03-06') + caldays(0:numDays-5));
+  fdate = transpose(datetime('2020-03-06') + caldays(0:numDays-7));
  
  
   [Ciu, ia, ic] = unique(ciudad1);
