@@ -5,13 +5,16 @@ function [country,C,date0] = getDataOlaya_Herrera()
 country = 'Olaya_Herrera';
 C = [
           7 % 22-May-2020
-          8 % 23-May-2020
+         11 % 23-May-2020
         NaN % 24-May-2020
-          9 % 25-May-2020
+         12 % 25-May-2020
         NaN % 26-May-2020
         NaN % 27-May-2020
         NaN % 28-May-2020
         NaN % 29-May-2020
+         13 % 30-May-2020
+        NaN % 31-May-2020
+        NaN % 01-Jun-2020
 %<-------------- add new data here
 ]';
 date0=datenum('22-May-2020');

@@ -6,10 +6,10 @@ country = 'Polonuevo';
 C = [
           7 % 04-May-2020
         NaN % 05-May-2020
-          8 % 06-May-2020
-         11 % 07-May-2020
+        NaN % 06-May-2020
+         10 % 07-May-2020
         NaN % 08-May-2020
-        NaN % 09-May-2020
+         11 % 09-May-2020
         NaN % 10-May-2020
         NaN % 11-May-2020
         NaN % 12-May-2020
@@ -28,8 +28,11 @@ C = [
         NaN % 25-May-2020
         NaN % 26-May-2020
         NaN % 27-May-2020
-        NaN % 28-May-2020
+         14 % 28-May-2020
         NaN % 29-May-2020
+        NaN % 30-May-2020
+        NaN % 31-May-2020
+         15 % 01-Jun-2020
 %<-------------- add new data here
 ]';
 date0=datenum('04-May-2020');

@@ -81,6 +81,9 @@ C = [
         NaN % 27-May-2020
         NaN % 28-May-2020
         NaN % 29-May-2020
+        NaN % 30-May-2020
+        151 % 31-May-2020
+        NaN % 01-Jun-2020
 %<-------------- add new data here
 ]';
 date0=datenum('14-Mar-2020');
