@@ -4,7 +4,12 @@ function [country,C,date0] = getDataUsiacuri()
 %     https://www.datos.gov.co/api/views/gt2j-8ykr/rows.csv?accessType=DOWNLOAD
 country = 'Usiacuri';
 C = [
+          6 % 01-Jun-2020
+          7 % 02-Jun-2020
+          8 % 03-Jun-2020
+        NaN % 04-Jun-2020
+        NaN % 05-Jun-2020
 %<-------------- add new data here
 ]';
-date0=datenum('02-Jun-2020');
+date0=datenum('01-Jun-2020');
 end
