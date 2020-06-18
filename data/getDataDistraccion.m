@@ -4,10 +4,20 @@ function [country,C,date0] = getDataDistraccion()
 %     https://www.datos.gov.co/api/views/gt2j-8ykr/rows.csv?accessType=DOWNLOAD
 country = 'Distraccion';
 C = [
-         31 % 03-Jun-2020
-        NaN % 04-Jun-2020
-         34 % 05-Jun-2020
+         32 % 03-Jun-2020
+         33 % 04-Jun-2020
+         36 % 05-Jun-2020
         NaN % 06-Jun-2020
+        NaN % 07-Jun-2020
+        NaN % 08-Jun-2020
+         37 % 09-Jun-2020
+        NaN % 10-Jun-2020
+        NaN % 11-Jun-2020
+        NaN % 12-Jun-2020
+        NaN % 13-Jun-2020
+        NaN % 14-Jun-2020
+        NaN % 15-Jun-2020
+        NaN % 16-Jun-2020
 %<-------------- add new data here
 ]';
 date0=datenum('03-Jun-2020');
