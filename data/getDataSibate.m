@@ -40,18 +40,33 @@ C = [
         NaN % 02-Jun-2020
          15 % 03-Jun-2020
          16 % 04-Jun-2020
-         19 % 05-Jun-2020
-         20 % 06-Jun-2020
+         20 % 05-Jun-2020
+         21 % 06-Jun-2020
         NaN % 07-Jun-2020
         NaN % 08-Jun-2020
         NaN % 09-Jun-2020
         NaN % 10-Jun-2020
         NaN % 11-Jun-2020
-        NaN % 12-Jun-2020
+         22 % 12-Jun-2020
         NaN % 13-Jun-2020
         NaN % 14-Jun-2020
         NaN % 15-Jun-2020
         NaN % 16-Jun-2020
+         24 % 17-Jun-2020
+        NaN % 18-Jun-2020
+        NaN % 19-Jun-2020
+        NaN % 20-Jun-2020
+        NaN % 21-Jun-2020
+         25 % 22-Jun-2020
+         26 % 23-Jun-2020
+        NaN % 24-Jun-2020
+         27 % 25-Jun-2020
+         36 % 26-Jun-2020
+        NaN % 27-Jun-2020
+         38 % 28-Jun-2020
+        NaN % 29-Jun-2020
+         39 % 30-Jun-2020
+        NaN % 01-Jul-2020
 %<-------------- add new data here
 ]';
 date0=datenum('30-Apr-2020');

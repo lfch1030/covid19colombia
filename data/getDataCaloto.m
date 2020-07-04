@@ -4,7 +4,9 @@ function [country,C,date0] = getDataCaloto()
 %     https://www.datos.gov.co/api/views/gt2j-8ykr/rows.csv?accessType=DOWNLOAD
 country = 'Caloto';
 C = [
+          5 % 30-Jun-2020
+        NaN % 01-Jul-2020
 %<-------------- add new data here
 ]';
-date0=datenum('17-Jun-2020');
+date0=datenum('30-Jun-2020');
 end

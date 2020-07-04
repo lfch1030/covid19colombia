@@ -4,7 +4,11 @@ function [country,C,date0] = getDataSan_Juan_de_Uraba()
 %     https://www.datos.gov.co/api/views/gt2j-8ykr/rows.csv?accessType=DOWNLOAD
 country = 'San_Juan_de_Uraba';
 C = [
+          6 % 28-Jun-2020
+          8 % 29-Jun-2020
+        NaN % 30-Jun-2020
+        NaN % 01-Jul-2020
 %<-------------- add new data here
 ]';
-date0=datenum('17-Jun-2020');
+date0=datenum('28-Jun-2020');
 end

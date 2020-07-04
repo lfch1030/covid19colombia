@@ -4,24 +4,20 @@ function [country,C,date0] = getDataGigante()
 %     https://www.datos.gov.co/api/views/gt2j-8ykr/rows.csv?accessType=DOWNLOAD
 country = 'Gigante';
 C = [
-          5 % 23-Apr-2020
-        NaN % 24-Apr-2020
-        NaN % 25-Apr-2020
-        NaN % 26-Apr-2020
-          9 % 27-Apr-2020
+          8 % 27-Apr-2020
         NaN % 28-Apr-2020
-         10 % 29-Apr-2020
+          9 % 29-Apr-2020
         NaN % 30-Apr-2020
-         11 % 01-May-2020
-         18 % 02-May-2020
+         10 % 01-May-2020
+         17 % 02-May-2020
         NaN % 03-May-2020
         NaN % 04-May-2020
         NaN % 05-May-2020
-         22 % 06-May-2020
-         23 % 07-May-2020
+         21 % 06-May-2020
+         22 % 07-May-2020
         NaN % 08-May-2020
         NaN % 09-May-2020
-         24 % 10-May-2020
+         23 % 10-May-2020
         NaN % 11-May-2020
         NaN % 12-May-2020
         NaN % 13-May-2020
@@ -32,7 +28,7 @@ C = [
         NaN % 18-May-2020
         NaN % 19-May-2020
         NaN % 20-May-2020
-         25 % 21-May-2020
+         24 % 21-May-2020
         NaN % 22-May-2020
         NaN % 23-May-2020
         NaN % 24-May-2020
@@ -59,7 +55,22 @@ C = [
         NaN % 14-Jun-2020
         NaN % 15-Jun-2020
         NaN % 16-Jun-2020
+        NaN % 17-Jun-2020
+        NaN % 18-Jun-2020
+        NaN % 19-Jun-2020
+        NaN % 20-Jun-2020
+        NaN % 21-Jun-2020
+         25 % 22-Jun-2020
+        NaN % 23-Jun-2020
+        NaN % 24-Jun-2020
+        NaN % 25-Jun-2020
+         26 % 26-Jun-2020
+        NaN % 27-Jun-2020
+        NaN % 28-Jun-2020
+        NaN % 29-Jun-2020
+        NaN % 30-Jun-2020
+        NaN % 01-Jul-2020
 %<-------------- add new data here
 ]';
-date0=datenum('23-Apr-2020');
+date0=datenum('27-Apr-2020');
 end

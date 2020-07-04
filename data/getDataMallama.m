@@ -4,14 +4,15 @@ function [country,C,date0] = getDataMallama()
 %     https://www.datos.gov.co/api/views/gt2j-8ykr/rows.csv?accessType=DOWNLOAD
 country = 'Mallama';
 C = [
-         28 % 30-May-2020
+          5 % 29-May-2020
+         29 % 30-May-2020
         NaN % 31-May-2020
         NaN % 01-Jun-2020
-         31 % 02-Jun-2020
-        NaN % 03-Jun-2020
+         33 % 02-Jun-2020
+         35 % 03-Jun-2020
         NaN % 04-Jun-2020
-        NaN % 05-Jun-2020
-         32 % 06-Jun-2020
+         36 % 05-Jun-2020
+         37 % 06-Jun-2020
         NaN % 07-Jun-2020
         NaN % 08-Jun-2020
         NaN % 09-Jun-2020
@@ -22,7 +23,22 @@ C = [
         NaN % 14-Jun-2020
         NaN % 15-Jun-2020
         NaN % 16-Jun-2020
+        NaN % 17-Jun-2020
+        NaN % 18-Jun-2020
+        NaN % 19-Jun-2020
+        NaN % 20-Jun-2020
+        NaN % 21-Jun-2020
+        NaN % 22-Jun-2020
+        NaN % 23-Jun-2020
+        NaN % 24-Jun-2020
+        NaN % 25-Jun-2020
+        NaN % 26-Jun-2020
+         38 % 27-Jun-2020
+        NaN % 28-Jun-2020
+        NaN % 29-Jun-2020
+        NaN % 30-Jun-2020
+        NaN % 01-Jul-2020
 %<-------------- add new data here
 ]';
-date0=datenum('30-May-2020');
+date0=datenum('29-May-2020');
 end
